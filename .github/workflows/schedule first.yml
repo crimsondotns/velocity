@@ -6,6 +6,9 @@ on:
     # รูปแบบ: นาที ชั่วโมง วันที่ เดือน วันในสัปดาห์
     - cron: '0 0 * * *'
   workflow_dispatch:
+  
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   runjobs:
