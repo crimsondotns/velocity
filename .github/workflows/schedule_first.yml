@@ -37,5 +37,5 @@ jobs:
       - name: Create Service
         run: echo '${{ secrets.SERVICE_ACCOUNT_JSON }}' > service_account.json
 
-      - name: Run Python
+      - name: Run Script
         run: python index.py
